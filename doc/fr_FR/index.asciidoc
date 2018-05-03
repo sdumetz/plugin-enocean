@@ -1,0 +1,11 @@
+== Open Enocean
+
+=== Description
+Ce plugin est un plugin permettant une compatibilité Enocean
+
+image:../images/openenocean_icon.png[width=256]
+
+'''
+=== Configuration
+include::configuration.asciidoc[]
+

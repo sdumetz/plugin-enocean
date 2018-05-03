@@ -1,0 +1,85 @@
+{
+    "a5-09-04": {
+        "name": "[A5-09-04] CO2 Sensor",
+        "groupe" : "[A5-09] Gas sensor",
+        "configuration": {
+            "rorg": "a5",
+            "func": "09",
+            "type": "04"
+        },
+        "commands": [
+            {            
+                "name": "Température",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 1,
+                "unite": "°C",
+                "display": {
+                    "generic_type": "TEMPERATURE"
+                },
+                "logicalId": "TMP::value"
+            },
+            {            
+                "name": "Humidité",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 1,
+                "unite": "%",
+                "display": {
+                    "generic_type": "HUMIDITY"
+                },
+                "logicalId": "HUM::value"
+            },
+            {            
+                "name": "CO2",
+                "type": "info",
+                "subtype": "numeric",
+                "isVisible": 1,
+                "isHistorized": 1,
+                "unite": "ppm",
+                "display": {
+                    "generic_type": "CO2"
+                },
+                "logicalId": "CONC::value"
+            },
+            {
+                "name": "dBm",
+                "type": "info",
+                "subtype": "numeric",
+                "display": {
+                    "generic_type": "GENERIC"
+                },
+                "isVisible": 0,
+                "isHistorized": 0,
+                "unite": "dbm",
+                "logicalId": "dBm"
+            }
+        ],
+        "compatibility": [
+            {
+                "manufacturer": "Nanosense",
+                "name": "Sonde qualité d'air E4000",
+                "doc": "",
+                "type": "Capteur",
+                "ref" : "",
+                "comlink": "",
+                "remark": "",
+                "inclusion" : "Mode inclusion auto et mode appairage",
+                "imglink": "a5-09-04_nanosense_e4000_CO2"
+            },
+			{
+                "manufacturer": "PressacSensing",
+                "name": "Sonde Co2 Température Humidité",
+                "doc": "",
+                "type": "Capteur",
+                "ref" : "",
+                "comlink": "",
+                "remark": "",
+                "inclusion" : "Mode inclusion auto et mode appairage",
+                "imglink": "a5-09-04_pressac_co2_humidite_temperature"
+            }
+        ]
+    }
+}

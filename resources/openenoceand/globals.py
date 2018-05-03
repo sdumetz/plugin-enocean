@@ -1,0 +1,11 @@
+JEEDOM_COM = ''
+KNOWN_DEVICES = {}
+LEARN_MODE = False
+EXCLUDE_MODE = False
+STORAGE_MESSAGE={}
+LOG_LEVEL=''
+NEEDS_RESPONSE =['a5-20-01']
+
+LEARN_PROCEDURE ={'BS4VAR3' : ['a5-20-01'],
+				  'UTE' : ['d2-01-12' , 'd2-01-0a','d2-01-01']
+				}

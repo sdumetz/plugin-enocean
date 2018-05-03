@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<telegrams version="2.6.4" major_version="2" minor_version="6" revision="4">
+	<telegram rorg="0xA5" type="4BS" description="4BS Telegram">
+		<profiles func="0x3f" description="Universal">
+			<profile type="0x7f" description="Universal">
+				<data>
+					<enum description="Not used" shortcut="NA" offset="0" size="8">
+						<item description="Not used" value="255" />
+					</enum>
+					<value description="Ramping Time" shortcut="RPM" offset="8" size="8" unit="s">
+						<range>
+							<min>0</min>
+							<max>255</max>
+						</range>
+						<scale>
+							<min>0</min>
+							<max>255</max>
+						</scale>
+					</value>
+					<enum description="Function" shortcut="FUNC" offset="16" size="8">
+						<item description="Stop" value="0" />
+						<item description="Up" value="1" />
+						<item description="Down" value="2" />
+						<item description="For learn" value="13" />
+					</enum>
+					<enum shortcut="LRNB" description="Learn Bit" offset="28" size="1">
+						<item description="Teach-In" value="0" />
+						<item description="Data" value="1" />
+					</enum>
+				</data>
+			</profile>
+		</profiles>
+	</telegram>
+</telegrams>

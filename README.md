@@ -10,8 +10,7 @@
 Plugin permettant de communiquer avec les equipements EnOcean
 
 # Documentation du plugin:
-[![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](docs/fr_FR/presentation.md)
-[présentation](docs/fr_FR/presentation.md) [configuration](docs/fr_FR/configuration.md) [faq](docs/fr_FR/faq.md) [changelog](docs/fr_FR/changelog.md)
+[![Read the Docs](https://img.shields.io/readthedocs/pip.svg)](docs/fr_FR/index.md)
 
 # Documentation complète:
 

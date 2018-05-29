@@ -11,7 +11,7 @@ cd /tmp
 logger_write "INFO" "Nettoyage du répertoire de travail"
 sudo rm -rf /tmp/plugin-openenocean > /dev/null 2>&1
 logger_write "INFO" "Récupération des sources (cette étape peut durer quelques minutes)"
-sudo git clone --depth=1 https://github.com/jeedom/plugin-openenocean.git
+sudo git clone --depth=1 https://github.com/nextdom/plugin-enocean.git
 if [ $? -ne 0 ]; then
     logger_write "ERROR" "Unable to fetch Plugin-openenocean git. Please check your internet connexion and github access"
     exit 1

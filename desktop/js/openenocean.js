@@ -14,6 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
+
+ /* Update by Ethal
+   Last Updated: MAY 29 2018.
+ */
+ 
  $('.changeIncludeState').on('click', function () {
    var mode = $(this).attr('data-mode');
    var state = $(this).attr('data-state');

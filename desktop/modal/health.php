@@ -15,6 +15,10 @@
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
 
+/* Update by Ethal
+   Last Updated: MAY 29 2018.
+ */
+
 if (!isConnect('admin')) {
 	throw new Exception('401 Unauthorized');
 }

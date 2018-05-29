@@ -1,5 +1,5 @@
 {
-	"id" : "EnOcean",
+	"id" : "openenocean",
 	"name" : "EnOcean",
 	"description" : "Plugin ajoutant le support du protocol EnOcean",
 	"licence" : "AGPL",

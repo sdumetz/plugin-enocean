@@ -1,6 +1,6 @@
 {
 	"id" : "openenocean",
-	"name" : "EnOcean",
+	"name" : "NextDom EnOcean",
 	"description" : "Plugin ajoutant le support du protocol EnOcean",
 	"licence" : "AGPL",
 	"author" : "Loïc et Ludovic , Ethal",

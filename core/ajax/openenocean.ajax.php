@@ -16,6 +16,10 @@
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
 
+ /* Update by Ethal
+   Last Updated: MAY 29 2018.
+  */
+
 try {
 	require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
 	include_file('core', 'authentification', 'php');
@@ -38,7 +42,7 @@ try {
 		}
 		ajax::success($openenocean->getModelListParam(init('conf')));
 	}
-	
+
 	if (init('action') == 'setDeviceConfiguration') {
 		$openenocean = openenocean::byId(init('id'));
 		if (!is_object($openenocean)) {
@@ -46,7 +50,7 @@ try {
 		}
 		ajax::success($openenocean->setDeviceConfiguration(init('parameters')));
 	}
-	
+
 	if (init('action') == 'getDeviceConfiguration') {
 		$openenocean = openenocean::byId(init('id'));
 		if (!is_object($openenocean)) {
@@ -54,7 +58,7 @@ try {
 		}
 		ajax::success($openenocean->getDeviceConfiguration());
 	}
-	
+
 	if (init('action') == 'changeRepeater') {
 		$openenocean = openenocean::byId(init('id'));
 		if (!is_object($openenocean)) {
@@ -62,7 +66,7 @@ try {
 		}
 		ajax::success($openenocean->changeRepeater(init('type')));
 	}
-	
+
 	if (init('action') == 'autoDetectModule') {
 		$eqLogic = openenocean::byId(init('id'));
 		if (!is_object($eqLogic)) {
@@ -76,7 +80,7 @@ try {
 		$eqLogic->applyModuleConfiguration();
 		ajax::success();
 	}
-	
+
 	if (init('action') == 'changeLogLive') {
 		ajax::success(openenocean::changeLogLive(init('level')));
 	}

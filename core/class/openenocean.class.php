@@ -16,6 +16,10 @@
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
 
+ /* Update by Ethal
+  Last Updated: MAY 29 2018.
+ */
+
 /* * ***************************Includes********************************* */
 
 class openenocean extends eqLogic {
@@ -354,7 +358,7 @@ class openenocean extends eqLogic {
 	public function getImage() {
 		return 'plugins/openenocean/core/config/devices/' . $this->getConfiguration('iconModel') . '.jpg';
 	}
-	
+
 	public function changeRepeater($_type) {
 		$send = json_encode(array('apikey' => jeedom::getApiKey('openenocean'), 'cmd' => 'learn', 'dest' => $this->getLogicalId(), 'profile' => $profile, 'type' => 'repeater', 'level' => $_type));
 		$socket = socket_create(AF_INET, SOCK_STREAM, 0);

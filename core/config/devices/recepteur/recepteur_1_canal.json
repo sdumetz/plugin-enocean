@@ -1,4 +1,5 @@
 {
+    "_comment": "Update by Ethal Last Updated: MAY 29 2018.",
     "recepteur_1_canal": {
         "name": "Récepteur 1 canal",
         "groupe" : "[Télécommande] Récepteurs",
@@ -70,7 +71,7 @@
                 "ref" : "",
                 "comlink": "",
                 "remark": "Module récepteur seulement ne s'inclue pas mais s'appaire",
-                "inclusion" : "Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn puis cliquez sur tester ON dans jeedom",
+                "inclusion" : "Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn puis cliquez sur tester ON",
                 "imglink": "recepteur_1_canal_trio2sys_recepteur_1_canal"
             },
             {
@@ -81,7 +82,7 @@
                 "ref" : "",
                 "comlink": "",
                 "remark": "Module récepteur seulement ne s'inclue pas mais s'appaire",
-                "inclusion" : "Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn puis cliquez sur tester ON dans jeedom",
+                "inclusion" : "Ajouter sans inclure. Choisir le profil. Ensuite mettre le module en learn puis cliquez sur tester ON",
                 "imglink": "recepteur_1_canal_vitec_ubid1008"
             }
         ]

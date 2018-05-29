@@ -16,6 +16,11 @@
  * along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
  */
 
+/* Update by Ethal
+  Last Updated: MAY 29 2018.
+ */
+
+
 require_once dirname(__FILE__) . '/../../../../core/php/core.inc.php';
 
 global $jsonrpc;

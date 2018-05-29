@@ -12,6 +12,11 @@
 # 
 # You should have received a copy of the GNU General Public License
 # along with Jeedom. If not, see <http://www.gnu.org/licenses/>.
+
+# Update by Ethal
+#   Last Updated: MAY 29 2018.
+#
+
 import globals
 import logging
 import string
